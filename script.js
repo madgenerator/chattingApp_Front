@@ -20,7 +20,7 @@ const userID = document.getElementById("userID");
 //addEventListner to "userMessage"
 userInput.addEventListener("keydown", messageEnter);
 
-const socket = io("https://chatting-app-red.vercel.app:3000");
+const socket = io("https://chatting-app-red.vercel.app");
 
 function messageEnter(event){
   if(event.key == "Enter"){
