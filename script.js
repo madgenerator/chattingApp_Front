@@ -20,7 +20,7 @@ const userID = document.getElementById("userID");
 //addEventListner to "userMessage"
 userInput.addEventListener("keydown", messageEnter);
 
-const socket = io("https://chattingv1-7e9e3dc81fb7.herokuapp.com");
+const socket = io("https://gptchaterver-f2e656ee43a0.herokuapp.com");
 
 function messageEnter(event){
   if(event.key == "Enter"){
